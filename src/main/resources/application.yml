@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/roman_shop_db
+    username: roman_user
+    password: password
+server:
+  port: 8080
